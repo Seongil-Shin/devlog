@@ -27,7 +27,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => !["assets"].includes(node.name),
+    }),
   ],
   right: [
     Component.Graph(),
