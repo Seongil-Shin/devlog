@@ -1,9 +1,12 @@
 ---
-title: next.js - Automatic Static 최적화
+title: Automatic Static 최적화
 author: 신성일
 date: 2023-01-29 22:00:00 +0900
-categories: [study, next.js]
-tags: [next.js]
+categories:
+  - study
+  - next.js
+tags:
+  - next.js
 ---
 
 next.js에서는 어떤 페이지가 `getServerSideProps` 또는 `getInitialProps`를 가지고 있지 않다면, static 페이지로 결정한다. 이렇게 static 페이지로 결정되면, 빌드시 그 페이지는 static 페이지로 빌드된다. 
