@@ -1,7 +1,13 @@
-블로그 개발 이동중
+---
+title: Welcome to Devlog
+---
 
-TODO 
-- [x] 이미지 경로 세팅
-- [ ] 콘텐츠 내용 정리
-- [x] 1뎁스까지는 오픈해놓기
-- [ ] 기존 게시글 옮기기
+이 블로그는 obsidian을 기반으로 한 개발 공부한 내용을 정리하는 블로그입니다.
+
+
+## infos
+
+- [깃허브](https://github.com/Seongil-Shin)
+- 이메일 : callmeshin75@gmail.com
+- [구블로그](https://seongil-shin.github.io/)
+
