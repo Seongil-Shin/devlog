@@ -1,5 +1,5 @@
 ---
-title: Subject index
+title: study
 ---
 
 
