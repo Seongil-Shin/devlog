@@ -15,7 +15,7 @@ title: study
     - call stack에 함수를 하나하나 쌓아가며 실행하다가 비동기로 실행해야할 코드를 만나면 백그라운드에서 실행한 후 콜백을 태스크큐에 등록
     - micro task → animationFrame task → macro task 순으로 실행됨
     - 앞의 queue가 전부 비워져야 뒤에 queue가 실행이 가능하여, 만약 micro task에서 다시 micro task를 계속 추가한다면 프로그램이 멈춘것처럼 보이게 된다.
-- 실행 컨텍스트 : [](https://seongil-shin.github.io/posts/%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8/)[https://seongil-shin.github.io/posts/실행컨텍스트/](https://seongil-shin.github.io/posts/%EC%8B%A4%ED%96%89%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8/)
+- [[content/study/javascript/실행컨텍스트|실행컨텍스트]] 
     - 실행컨텍스트 : 실행되는 함수의 지역메모리와 실행문을 포함한 것
     - 클로저 : **어떠한** **함수가 정의된 스코프가 아닌 다른 스코프에서 함수가 실행되더라도, 그 함수가 실행된 위치에서는 접근할 수 없고, 실행된 함수에서는 접근 가능한 변수를 클로저를 통해 접근할 수 있게 해줌**
         - 활용 : 여러 함수 호출에 거쳐 상태 기억, 변수 캡슐화

@@ -1,0 +1,80 @@
+---
+title: hoisting
+author: 신성일
+date: 2022-02-09 01:20:00 +0900
+categories: [study, javascript]
+tags: [javascript]
+---
+
+호이스팅은 변수를 끌어올리는 것. `var`로 선언된 모든 변수 선언을 hoist한다. hoist란 변수의 정의가 그 범위에 따라 `선언`과 `할당`으로 분리되는 것을 의미한다. 즉,  함수 내의 선언들을 모두 끌어올려서 해당 함수 유효 범위의 최상단에 선언하는 것
+
+자바스크립트에서 변수의 선언은 끌어올려진다. 다음의 코드를 보자.
+
+```javascript
+function getX() {
+  console.log(x); // undefined;
+  var x = 100;
+  console.log(x); // 100
+}
+getX();
+```
+
+다른 언어의 경우 첫번째 console.log 에서 오류가 발생했을 것이다. 하지만 자바스크립트에서는 변수의 선언이 최상위로 끌어올려지기때문에, undefined가 출력된다. 즉 작동순서에 맞게 코드를 재구성하면 다음과 같다.
+
+```javascript
+function getX() {
+  var x;
+  console.log(x);
+  x = 100;
+  console.log(x);
+}
+getX();
+```
+
+이때 **할당 구문은 런타임 과정에서 이루어지기 때문에 hoist 되지 않는다.**
+
+<br/>
+
+## 함수 선언식과 표현식
+
+호이스팅은 함수에서도 발생한다. 하지만 함수 선언식이냐 함수 표현식이냐에 따라 동작이 달라진다.
+
+- 선언식 : `function 함수명() {}` 와 같이 함수명을 포함한 함수 선언 형태
+
+  - 호이스팅 되어 선언문 전에 사용 가능
+
+  ```js
+  foo();
+  function foo() {
+    console.log("hello");
+  }
+  ```
+
+- 표현식 : `var 함수명 = function () {}`와 같이 익명함수를 변수에 할당하는 방법
+
+  - var 변수에는 접근이 되나, 함수 부여는 원래 위치에서 됨. 따라서 함수 부여 전에 사용 시 함수가 아니라는 오류가 남.
+
+  ```js
+  foo(); // Uncaught TypeError: foo is not a function
+  var foo = function () {
+    console.log("hello");
+  }
+  ```
+
+<br/>
+
+### let, const
+
+let과 const는 hoist는 되지만 선언 전 사용은 불가능하다.
+
+![image-20220209020517822](/assets/img/2022-02-09-hoisting/image-20220209020517822.png)
+
+<br/>
+
+
+
+## **출처**
+
+https://crushonit.tistory.com/95
+
+https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/JavaScript
