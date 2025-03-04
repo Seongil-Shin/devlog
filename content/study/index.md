@@ -11,7 +11,7 @@ title: study
     - 프로토타입은 해당 메서드를 호출한 객체와 연결됨
     - 이벤트 리스너에서는 해당 이벤트가 부착된 dom 이 this로 설정됨
     - 화살표함수에는 this가 존재하지 않음. 따라서 객체의 메서드, 이벤트리스너로 화살표함수는 지양
-- **Javascript event loop** : [https://seongil-shin.github.io/posts/eventloop/](https://seongil-shin.github.io/posts/eventloop/)
+- [[content/study/javascript/javascript 이벤트루프|javascript 이벤트루프]]
     - call stack에 함수를 하나하나 쌓아가며 실행하다가 비동기로 실행해야할 코드를 만나면 백그라운드에서 실행한 후 콜백을 태스크큐에 등록
     - micro task → animationFrame task → macro task 순으로 실행됨
     - 앞의 queue가 전부 비워져야 뒤에 queue가 실행이 가능하여, 만약 micro task에서 다시 micro task를 계속 추가한다면 프로그램이 멈춘것처럼 보이게 된다.
@@ -38,7 +38,7 @@ title: study
     - 최적화를 위해 백그라운드로 숨겨진 탭의 경우 requestAnimationFrame 콜백은 실행되지 않는다.
 - event.target과 event.currentTarget의 차이점
     - target : 이벤트가 발생한 위치, currentTarget : 이벤트가 부착된 위치
-- 함수형 프로그래밍
+- [[content/study/web/함수형 프로그래밍 1|함수형 프로그래밍 1]] [[content/study/web/함수형 프로그래밍 2|함수형 프로그래밍 2]]
     - 순수함수의 조합으로 어플리케이션을 만드는 방식
         - 순수함수는 외부의 값을 변경하지 않고 사이드이펙트를 일으키지 않는 함수이다
         - 따라서 동일한 인자에 항상 동일한 결과를 반환함.
@@ -62,7 +62,7 @@ title: study
     - index를 key로 사용하면 서로 다른 요소인데 key 가 같아서 업데이트가 발생하지 않는 경우가 있음. 리스트에 key를 안넣으면 index가 기본으로 사용됨
     - 리스트가 아니더라도 상태를 초기화하고 싶을때 사용할 수 있다
 - 클라이언트 컴포넌트도 서버 렌더링이 먼저 된다
-- React compiler : [https://ko.react.dev/learn/react-compiler](https://ko.react.dev/learn/react-compiler)
+- [[content/study/react/React Compiler|React Compiler]]
     - 리액크 메모이제이션을 자동으로 추가해줌
     - 실제 실험 결과
         - 초기 로딩 속도 크게 차이 안남.
@@ -78,14 +78,14 @@ title: study
 	- 브라우저 렌더링 과정 : 
 	- CSS 최적화 : 
 		- Reflow 와 Repaint 최소화
-- CORS : [https://seongil-shin.github.io/posts/web-CORS/](https://seongil-shin.github.io/posts/web-CORS/)
+- [[content/study/web/CORS|CORS]]
     - SOP 정책 : 다른 출처의 리소스를 사용할 수 없는 것
     - SOP 예외 : CORS 정책을 지킨 요청
-- Keep-alive : [https://seongil-shin.github.io/posts/web-keep-alive/](https://seongil-shin.github.io/posts/web-keep-alive/)
+- [[content/study/web/keep-alive|keep-alive]]
     - 한번 맺은 연결을 계속 사용할 수 있게 함
     - http/1.0에서는 별도로 지정해줘야함. http/1.1 에서는 디폴트임
     - http/2 부터는 multiplexing이 지원되기에 기본적으로 한 TCP 연결에서 여러 개의 요청과 응답을 동시에 전송할 수 있다. 따라서 keep-alive가 필요없다
-- BF-Cache : [https://seongil-shin.github.io/posts/bfcache/](https://seongil-shin.github.io/posts/bfcache/)
+- [[content/study/web/bfcache|bfcache]]
     - 브라우저에서 이전/다음 이동 시 저장되는 cache. JS heap 까지 저장한다.
     - unload 이벤트, window.opener, `Cache-Control: no-store` 가 있으면 bfcache 비활성화됨
     - pageshow, pagehide 로 bfcache 관련 이벤트 감지 가능
