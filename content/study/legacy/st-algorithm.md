@@ -61,10 +61,10 @@ tags: []
 
 ## UI UX
 
-![img_1](/assets/img/2021-11-25-st-algorithm/Screenshot_1637750381.png)
+![[content/assets/img/2021-11-25-st-algorithm/Screenshot_1637750381.png]]
 
-![img_2](/assets/img/2021-11-25-st-algorithm/Screenshot_1637750872.png)
+![[content/assets/img/2021-11-25-st-algorithm/Screenshot_1637750872.png]]
 
-![img_3](/assets/img/2021-11-25-st-algorithm/Screenshot_1637751957.png)
+![[content/assets/img/2021-11-25-st-algorithm/Screenshot_1637751957.png]]
 
-![img_4](/assets/img/2021-11-25-st-algorithm/Screenshot_1637752084.png)
+![[content/assets/img/2021-11-25-st-algorithm/Screenshot_1637752084.png]]

@@ -117,7 +117,7 @@ RBT는 아래 성질을 만족하는 이진탐색트리이다.
 - Root node부터 leaf node까지의 모든 경로 중 최소 경로와 최대 경로의 크기 비율은 2보다 크지 않다. 이러한 상태를 balanced라고 한다.
 - 노드의 child가 없을 경우 child를 가리키는 포인터는 NIL 값을 저장한다. 이 NIL들을 leaf node로 간주한다.
 
-![No Image](/assets/img/2022-01-22-datastructure/2.png)
+![[content/assets/img/2022-01-22-datastructure/2.png]]
 
 **삽입**
 

@@ -67,7 +67,7 @@ getX();
 
 let과 const는 hoist는 되지만 선언 전 사용은 불가능하다.
 
-![image-20220209020517822](/assets/img/2022-02-09-hoisting/image-20220209020517822.png)
+![[content/assets/img/2022-02-09-hoisting/image-20220209020517822.png]]
 
 <br/>
 
