@@ -6,7 +6,6 @@ categories: [study, database]
 tags: [db]
 ---
 
-## 
 
 ### **인덱스란?**
 

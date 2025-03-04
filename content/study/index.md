@@ -55,7 +55,7 @@ title: study
     - diffing 알고리즘 : 아래의 2가지 가정을 기반으로 이전/현재 virtual dom을 비교할시 O(n) 시간 복잡도를 가지는 휴리스틱 알고리즘
         - 서로 다른 타입을 가진 두 엘리먼트는 다른 트리를 만들어낸다.
         - 개발자가 key prop을 통해 자식 엘리먼트의 변경 여부를 표시할 수 있다.
-- react key : [https://ko.react.dev/learn/rendering-lists#why-does-react-need-keys](https://ko.react.dev/learn/rendering-lists#why-does-react-need-keys)
+- [[content/study/react/React에서 Key를 사용하는 이유|React에서 Key를 사용하는 이유]]
     - 리액트는 list 에 변경 발생 시 위에서부터 비교 후 변경된 것들을 반영함.
     - 중간에 요소가 추가되었을 시 그 아래 것들은 모두 새로 만들게 되는데, key를 사용하면 key 가 같은 것들은 상태를 유지됨. (요소 내부의 상태 변화는 인식하여 리렌더링 한다)
     - key는 하나의 리스트 안에서 유일하면 됨.
