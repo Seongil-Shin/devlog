@@ -67,7 +67,7 @@ tags: [web]
 
 ## **웹서버 + WAS 아키텍처**
 
-## ![[content/assets/img/2022-09-12-was-webserver/web-service-architecture.png]]
+## ![[assets/img/2022-09-12-was-webserver/web-service-architecture.png]]
 
 1. 웹 서버는 웹 브라우저 클라이언트로부터 HTTP 요청을 받는다.
 2. 웹 서버는 클라이언트의 요청을 WAS에 보낸다.

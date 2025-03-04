@@ -70,7 +70,7 @@ asyncThing1()
 
 위 로직을 그림으로 표현하면 다음과 같다
 
-![[content/assets/img/2022-02-18-promise-async-await/257CF64C5444D93006.png]]
+![[assets/img/2022-02-18-promise-async-await/257CF64C5444D93006.png]]
 
 <br/>
 

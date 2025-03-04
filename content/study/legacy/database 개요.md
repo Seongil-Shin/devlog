@@ -154,7 +154,7 @@ tags: [db]
 
 ### **트랜잭션의 상태**
 
-![[content/assets/img/2022-02-04-database 개요/transaction-status.png]]
+![[assets/img/2022-02-04-database 개요/transaction-status.png]]
 
 - active
   - 트랜잭션이 실행중인상태
@@ -182,7 +182,7 @@ tags: [db]
 
 **예시**
 
-![[content/assets/img/2022-02-04-database 개요/deadlock.png]]
+![[assets/img/2022-02-04-database 개요/deadlock.png]]
 
 **교착상태의 빈도를 낮추는 방법**
 
@@ -209,7 +209,7 @@ tags: [db]
 
 어떠한 분산시스템도 아래 세가지를 모두 만족할 수 없다는 이론.
 
-![[content/assets/img/2022-02-04-database 개요/image-20220206005652242.png]]
+![[assets/img/2022-02-04-database 개요/image-20220206005652242.png]]
 
 - RDBMS는 가용성과 일관성을 만족하고, 나머지를 만족할 수 없음
 - NoSQL은 제품에 따라 다름.

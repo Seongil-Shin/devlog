@@ -16,7 +16,7 @@ Virtual DOM은 DOM을 추상화한 가상의 객체이다.
 
 HTML 문서를 파싱하여 문서의 구성요소들을 객체로 구조화하여 나타낸 것.
 
-![[content/assets/img/2022-07-17-virtual Dom/img.png]]
+![[assets/img/2022-07-17-virtual Dom/img.png]]
 
 HTML Elements, 속성, CSS style, Events, Methods 를 구조화해서 나타낸 객체고, 이 객체를 이용해서 웹페이지 구성요소를 제어할 수 있다.
 

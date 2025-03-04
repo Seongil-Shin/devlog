@@ -257,7 +257,7 @@ input[type=radio]:checked {
 
 이때 content 속성값을 통해 특정 내용을 출력할 수도 있다.
 
-![[content/assets/img/2022-01-05-css선택자/3.png]]
+![[assets/img/2022-01-05-css선택자/3.png]]
 
 
 

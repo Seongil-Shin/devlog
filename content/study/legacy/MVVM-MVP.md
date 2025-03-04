@@ -10,7 +10,7 @@ tags: [architecture]
 
 Model - View - View Model 의 약자로, 프로그램의 비지니스 로직과 프레젠테이션 로직을 UI로 명확하게 분리하는 패턴
 
-![[content/assets/img/2022-01-18-MVVM-MVP/img1.daumcdn-16424351335101.png]]
+![[assets/img/2022-01-18-MVVM-MVP/img1.daumcdn-16424351335101.png]]
 
 ### 구성요소
 
@@ -149,7 +149,7 @@ export default ViewModel
 
 Model - View - Prensenter
 
-![[content/assets/img/2022-01-18-MVVM-MVP/img1.daumcdn.png]]
+![[assets/img/2022-01-18-MVVM-MVP/img1.daumcdn.png]]
 
 ### 구조
 

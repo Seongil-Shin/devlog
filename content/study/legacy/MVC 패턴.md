@@ -29,7 +29,7 @@ tags: [architecture]
 
 ## MVC 구동 원리
 
-![[content/assets/img/2022-01-17-MVC 패턴/image-20220117005529402.png]]
+![[assets/img/2022-01-17-MVC 패턴/image-20220117005529402.png]]
 
 Client-Server 구조로, 요청을 하면 그에 맞는 응답을 하는 구조를 기본으로 하고 있다.
 
