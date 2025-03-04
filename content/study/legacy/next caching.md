@@ -1,10 +1,3 @@
----
-title: next.js caching
-author: 신성일
-date: 2023-08-13  22:00:00 +0900
-categories: [study, next.js]
-tags: [next.js, cache] 
----
 
 next.js app router의 [caching](https://nextjs.org/docs/app/building-your-application/caching)에 관해 공부한 내용입니다.
 
