@@ -1,9 +1,12 @@
 ---
-title: redux-saga concepts
+title: redux-saga
 author: 신성일
 date: 2022-01-02 18:19:26 +0900
-categories: [study, react]
-tags: [redux]
+categories:
+  - study
+  - react
+tags:
+  - redux
 ---
 
 ## Declarative Effects

@@ -1,9 +1,11 @@
 ---
-title: CSS position 에 관하여
+title: CSS position
 author: 신성일
 date: 2021-05-24 21:38:44 +0900
-categories: [study, css]
-tags: []
+categories:
+  - study
+  - css
+tags:
 ---
 
 ## static

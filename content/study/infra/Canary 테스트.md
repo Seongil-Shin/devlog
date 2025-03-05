@@ -6,7 +6,7 @@ categories: [study, devops]
 tags: []
 ---
 
-## [devops] Canary 테스트
+## Canary 테스트
 
 안정적인 버전을 릴리즈하기 전에 테스트 버전을 일부 사용자에게 배포하는 것을 말한다.
 

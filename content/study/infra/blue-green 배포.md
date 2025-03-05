@@ -6,7 +6,7 @@ categories: [study, devops]
 tags: []
 ---
 
-# **[devops] blue-green 배포**
+# blue-green 배포
 
 애플리케이션의 이전 버전에 있던 사용자 트래픽을 이전 버전(blue)과 거의 동일한 새 버전(green)으로 점진적으로 이전하는 애플리케이션 배포 모델이다. 이때 두 버전 모두 프로덕션 환경에서 실행 상태를 유지한다.
 

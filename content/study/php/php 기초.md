@@ -1,9 +1,11 @@
 ---
-title: php 기초 강의
+title: php 기초
 author: 신성일
 date: 2022-12-25 16:00:00 +0900
-categories: [study, php]
-tags: []
+categories:
+  - study
+  - php
+tags:
 ---
 
 # PHP 기초

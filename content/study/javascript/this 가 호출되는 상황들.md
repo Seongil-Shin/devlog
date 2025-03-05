@@ -1,9 +1,12 @@
 ---
-title: this에 대해서
+title: this 가 호출되는 상황들
 author: 신성일
 date: 2022-02-18 12:10:00 +0900
-categories: [study, javascript]
-tags: [javascript]
+categories:
+  - study
+  - javascript
+tags:
+  - javascript
 ---
 
 ## **this에 대해서**

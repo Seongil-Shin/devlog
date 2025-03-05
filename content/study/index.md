@@ -4,7 +4,7 @@ title: study
 
 
 ## javascript
-- [[content/study/javascript/js this|js this]]
+- [[content/study/javascript/this|this]]
     - 함수호출 시 기본적으로 전역객체와 연결됨 (내부, 콜백 함수 모두 포함) (strict 에서는 undefined)
         - call, apply, bind로 this에 연결하고자하는 객체를 설정할 수 있음
     - 객체의 메서드에서는 해당 객체로 연결됨
@@ -25,10 +25,10 @@ title: study
     - let, const : 재선언 불가능, 호이스팅 되지만 초기화되지 않아 사용 불가능, 블록스코프
         - 호이스팅이 안되면 블록 전반부는 섀도우 안되는 이슈 발생
         - 초기화되면 const 동작이 이상해짐
-- 호이스팅이란?
+- [[content/books/You don't know JS yet 1권/You don't know JS Yet 2부 - 5장 변수의 비밀 생명주기|호이스팅]]
     - 해당 스코프에 식별자를 등록하는 것
     - 함수의 경우 호이스팅과 함수 참조로의 초기화가 동시에 발생한다
-- AMD, UMD
+- [[content/books/You don't know JS yet 1권/You don't know JS Yet 2부 - Appendix|AMD, UMD]]
     - AMD : CJS는 동기적으로 로딩하는데, 브라우저에서 동기적으로 파일 로딩하면 성능 이슈가 생기기, 모듈을 비동기적으로 로딩하기위해 탄생
     - UMD : CJS, AMD 호환을 위해 사용
     - ESM : 공식 모듈
@@ -94,7 +94,12 @@ title: study
     - defer : 다운로드 비동기. HTML 파싱 종료 후 실행함. 스크립트간 실행순서 보장
 - cookie, localstorage, sessionstorage 차이점
     - 공통점
+	    - 키-값 형태로 저장
+	    - 도메인 단위로 저장된다
     - 차이점
+	    - cookie
+	    - localstorage
+	    - sessionstorage
 - cookie samesite : [https://velog.io/@rookieand/HTTP-Cookie-와-SameSite-정책에-대해서](https://velog.io/@rookieand/HTTP-Cookie-%EC%99%80-SameSite-%EC%A0%95%EC%B1%85%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
     - 브라우저가 서드파티쿠키를 전송할 것이냐 아니냐에 대한 설정 (다른 출처에서의 요청에 쿠키 전송 여부)
         - 요청을 보낸 주소와 쿠키 domain 속성 비교

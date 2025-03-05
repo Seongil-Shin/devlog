@@ -1,5 +1,5 @@
 ---
-title: "[js] this"
+title: this
 author: 신성일
 date: 2025-01-24 19:00:00 +0900
 categories: study, js
