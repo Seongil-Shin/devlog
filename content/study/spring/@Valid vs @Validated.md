@@ -1,9 +1,12 @@
 ---
-title: Valid vs Validatedated
+title: "@Valid vs @Validated"
 author: 신성일
 date: 2022-11-05 18:25:26 +0900
-categories: [study, spring]
-tags: [spring]
+categories:
+  - study
+  - spring
+tags:
+  - spring
 ---
 
 ## **@Valid**

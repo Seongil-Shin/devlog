@@ -29,7 +29,7 @@ function Table() {
 
 1. 올바르고 의미있는 JS 코드로 작성되었다 (valid, semantic JavaScript.)
 2. nullable/optional 값과 속성에 접근하기 전에 그 값이 정의되어있는지 테스트한다. (TS를 사용하는 경우 `strictNullCheck`를 활성화하여 수행함)
-3. [[React 규칙]]을 따른다.
+3. [[content/study/react/공식문서/신 공식문서/React 규칙]]을 따른다.
 
 만약 규칙을 어긋나는 것이 있다면 그 컴포넌트는 컴파일을 건너뛴다.
 

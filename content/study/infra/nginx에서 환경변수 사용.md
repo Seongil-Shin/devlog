@@ -2,8 +2,9 @@
 title: nginx에서 환경변수 사용하는 방법
 author: 신성일
 date: 2022-12-05 21:00:00 +0900
-categories: [study, web]
-tags: []
+categories:
+  - study
+tags:
 ---
 
 # nginx.conf 에서 환경변수 사용
